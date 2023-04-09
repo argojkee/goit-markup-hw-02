@@ -345,9 +345,7 @@ body {
         list-style: none;
         }
 
-        .button-text {
-            margin: 12px 24px 12px 24px;
-        }
+
 
         .filter-button {
             font-family: 'Roboto' sans-serif;
@@ -375,6 +373,12 @@ body {
             color: var(--primary-color);
             
         }
+
+        .filter-button{
+            font-family: 'Roboto' sans-serif;
+        }
+
+
         
 
         
