@@ -313,12 +313,12 @@ body {
 
     /* Logo */
     .logo-studio-footer {
-        color: #FFFFFF;
+        color: #f4f4fd;
         text-decoration-line: none;
     }
 
     .logo-studio-footer:visited {
-        color: #FFFFFF;
+        color: #f4f4fd;
     }
     .logo-web-footer {
         text-decoration-line: none;
