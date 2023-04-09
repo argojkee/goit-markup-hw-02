@@ -349,19 +349,34 @@ body {
             margin: 12px 24px 12px 24px;
         }
 
+        .filter-button {
+            font-family: 'Roboto' sans-serif;
+        }
+
         /* Content */
         .content-list{
             list-style: none;
         }
 
-        .content-list-top,
-        .content-list-mid,
-        .content-list-bot {
-            list-style: none;
-        }
+        
 
         .content-list-title {
             color: var(--title-color);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
         }
+
+        .content-list-text {
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: var(--primary-color);
+            
+        }
+        
+
+        
 
        
