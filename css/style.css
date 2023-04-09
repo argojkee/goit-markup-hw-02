@@ -1,0 +1,321 @@
+:root {
+    --primary-color: #434455;
+    --title-color: #2E2F42;
+    --site-nav-color-item: #2E2F42;
+    --primary-button-bg: #F4F4FD;
+    --primary-button-color: #4D5AE5;
+    --primary-button-bg-hover: #404BBF;
+    --primary-button-color-hover: #FFFFFF;
+}
+
+
+
+/* Палитра
+текс #434455
+заголовок #2E2F42
+фон #2E2F42
+акцент #4D5AE5
+*/
+
+/* Шрифты
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+    color: var(--primary-color);
+    width: 1440px;
+}
+
+/* Шрифты */
+/* h1 */
+.title-biggest {
+    line-height: 107%;
+    font-size: 56px;
+}
+
+/* h2 */
+.title-big {
+    line-height: 111%;
+    font-size: 36px;
+}
+/* Body medium */
+
+.title-body-medium {
+    font-weight: 500;
+    line-height: 150%;
+    font-size: 16px;
+}
+/* h3 */
+.title-med {
+    font-weight: 500;
+    line-height: 120%;
+    font-size: 20px;
+}
+
+
+/* text */
+
+.title-body {
+    font-weight: 400;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+/* Button font */
+
+.button{
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 150%;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.button {
+    background: var(--primary-button-bg);
+    color: var(--primary-button-color);
+    height: 48px;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+    background: var(--primary-button-bg-hover);
+    color: var(--primary-button-color-hover);
+}
+
+/* Header */
+ 
+    /* Nav */
+
+        /* Logo */
+        .logo {
+            font-family: 'Raleway',
+                sans-serif;
+                letter-spacing: 0.03em;
+                font-size: 18px;
+                line-height: 117%;
+                font-weight: 800;
+                
+        }
+        .logo-web-header {
+        color: #4D5AE5;
+        text-decoration-line: none;
+        }
+        .logo-web-header:active,
+        .logo-web-header:visited,
+        .logo-web-header:focus {
+            color: #4D5AE5;
+        }
+
+        .logo-studio-header {
+        color: #2E2F42;
+        text-decoration-line: none;
+        }
+        .logo-studio-header:visited{
+        color:#2E2F42
+        }
+
+        /* Site nav */
+        .site-nav a {
+        color: var(--site-nav-color-item);
+        }
+        .site-nav-link:active,
+        .site-nav-link:hover,
+        .site-nav-link:focus {
+            color: #404BBF;
+        }
+
+        .site-nav-link {
+            text-decoration-line: none;
+        }
+        .list {
+         list-style: none;
+          }
+
+    /* Adress */
+
+    .adress {
+        list-style: none;
+        
+    }
+    .adress .link:active,
+    .adress .link:hover,
+    .adress .link:focus {
+        color: #404BBF;
+    }
+
+
+    .adress-mail,
+    .adress-tel {
+        color: var(--primary-color);
+    text-decoration-line: none;
+    }
+
+    
+
+
+    /* Main page */
+
+
+    /* Hero */
+    .hero {
+        background: #2E2F42;
+        height: 600px;
+    }
+/* Hero title */
+    .hero-title {
+        color: #FFFFFF;
+        width: 496px;
+        margin: 0 472px 0 472px;
+    }
+    /* Hero button */
+    .button.hero-button {
+        background: #4D5AE5;
+        color: #FFFFFF;
+        width: 169px;
+        height: 56px;
+        margin: 0 635px 0 636px;
+
+    }
+
+    .button.hero-button:hover,
+    .button.hero-button:focus,
+    .button.hero-button:active {
+        background: #404BBF;
+    }
+
+
+    /* Feature */
+
+      
+    
+    /* Feature title */
+    .feature-title {
+        color: var(--title-color);
+        margin-bottom: 8px;
+    }
+
+    
+/* Feature items */
+    .feature-container {
+        width: 264px;
+    }
+
+
+    .feature-container-text {
+        margin-top: 8px;
+    }
+
+    /* What are we doing */
+    /* Whar are we doing title */
+    .section-title {
+        color: var(--title-color);
+    }
+
+    /* Our team */
+
+    .our-team {
+        background: #F4F4FD;
+    }
+/* Our team title */
+    .name-title {
+        color: var(--title-color);
+        margin-bottom: 8px;
+    }
+/* Team information */
+    .team-profession {
+        margin-top: 8px;
+    }
+
+    .container-info {
+        margin-top: 32px;
+        width: 232px;
+        height: 56px;
+    }   
+
+
+
+
+
+
+    /* Footer */
+    .footer{
+        background: #2E2F42;
+        height: 312px;
+    }
+    
+
+
+    /* Logo */
+    .logo-studio-footer {
+        color: #FFFFFF;
+        text-decoration-line: none;
+    }
+
+    .logo-studio-footer:visited {
+        color: #FFFFFF;
+    }
+    .logo-web-footer {
+        text-decoration-line: none;
+    }
+    .logo-web-footer:active,
+    .logo-web-footer:visited,
+    .logo-web-footer:focus {
+        color: #4D5AE5;
+    }
+
+
+    /* Text */
+    .footer-text {
+        color: #E7E9FC;
+        width: 264px;
+    }
+
+
+
+
+
+
+
+
+
+    /* Portfolio */
+        /* Filters */
+        
+        
+        .filter-list {
+        list-style: none;
+        }
+
+        .button-text {
+            margin: 12px 24px 12px 24px;
+        }
+
+        /* Content */
+        .content-list{
+            list-style: none;
+        }
+
+        .content-list-top,
+        .content-list-mid,
+        .content-list-bot {
+            list-style: none;
+        }
+
+        .content-list-title {
+            color: var(--title-color);
+        }
+
+       
