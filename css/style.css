@@ -153,7 +153,9 @@ body {
           }
 
     /* Adress */
-
+    .adress-container {
+        font-style: normal;
+    }
     .adress {
         list-style: none;
         
@@ -165,8 +167,7 @@ body {
     }
 
 
-    .adress-mail,
-    .adress-tel {
+ .adress {
         color: var(--primary-color);
     text-decoration-line: none;
     }
