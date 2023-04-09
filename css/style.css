@@ -193,6 +193,7 @@ body {
     }
     /* Hero button */
     .button.hero-button {
+        font-family: 'Roboto' sans-serif;
         background: #4D5AE5;
         color: #FFFFFF;
         width: 169px;
@@ -217,9 +218,10 @@ body {
       
     
     /* Feature title */
-    .feature-title {
+    .feature-main-title {
         color: var(--title-color);
         margin-bottom: 8px;
+        letter-spacing: 0.02em;
     }
 
     
@@ -239,6 +241,11 @@ body {
         color: var(--title-color);
     }
 
+    .title-doing {
+        text-align: center;
+        text-transform: capitalize;
+    }
+
     /* Our team */
 
     .our-team {
@@ -249,8 +256,32 @@ body {
         color: var(--title-color);
         margin-bottom: 8px;
     }
+
+    .title-team {
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+
+    .title-med {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+
+
+    .team-part {
+        background-color: #FFFFFF;
+
+    }
 /* Team information */
     .team-profession {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
         margin-top: 8px;
     }
 
